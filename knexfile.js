@@ -6,7 +6,7 @@ module.exports = {
       host: 'localhost',
       user: 'postgres',
       password: 'root',
-      database: 'movietest',
+      database: 'moviedbtest',
     },
     migrations: {
       directory: 'src/migrations',
@@ -15,14 +15,14 @@ module.exports = {
       directory: 'src/seeds',
     },
   },
-  test: {
+  prod: {
     client: 'pg',
     version: '9.6',
     connection: {
       host: 'localhost',
       user: 'postgres',
       password: 'root',
-      database: 'movietest',
+      database: 'moviedbprod',
     },
     migrations: {
       directory: 'src/migrations',
