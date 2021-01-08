@@ -19,10 +19,10 @@ module.exports = {
     client: 'pg',
     version: '9.6',
     connection: {
-      host: 'localhost',
+      host: 'database',
       user: 'postgres',
-      password: 'root',
-      database: 'moviedbprod',
+      password: 'postgres',
+      database: 'moviedb',
     },
     migrations: {
       directory: 'src/migrations',
