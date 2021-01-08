@@ -1,6 +1,6 @@
 # themoviedbchallenge
 
-The Movie DB Challenge provides a simple api to search/save movies details and translations. The indexing is based on a "movie_id" of the webiste https://developers.themoviedb.org/, it it don't returns any data, the id is abalible for manual creation.
+The Movie DB Challenge provides a simple api to search/save movies details and translations. The indexing is based on a "movie_id" of the webiste https://developers.themoviedb.org/, it it don't returns any data, the id is avaliable for manual insertion.
 
 Initial setup:
 
