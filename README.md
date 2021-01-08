@@ -4,13 +4,16 @@ The Movie DB Challenge provides a simple api to search/save movies details and t
 
 Initial setup:
 
-docker build -t movie-db-node-docker/node .
-docker-compose up
-docker exec -ti api /bin/bash
-node node_modules/.bin/knex migrate:latest --env prod
+- docker build -t movie-db-node-docker/node .
+
+- docker-compose up
+
+- docker exec -ti api /bin/bash
+
+- node node_modules/.bin/knex migrate:latest --env prod
 
 Documentation (neeeds npx):
 
-1: cd docs
-2: npx serve
-3: Acess localhost:5000
+- cd docs
+- npx serve
+- Acess localhost:5000
