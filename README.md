@@ -12,6 +12,15 @@ Initial setup:
 
 - node node_modules/.bin/knex migrate:latest --env prod
 
+- acess localhost:3000
+
+  * Routes (see Documentation)
+  * GET /v1/movies/{movieId}
+  * GET /v1/movies/{movieId}/translations
+  * POST /v1/movies
+  * POST /v1/movies/translations
+
+
 Documentation (neeeds npx):
 
 - cd docs
